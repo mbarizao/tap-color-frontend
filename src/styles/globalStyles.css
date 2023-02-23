@@ -85,9 +85,19 @@ input[type="email"] {
     transition: background-image 0.5s linear;
 }
 
+.logo {
+    width: 330px;
+    height: 150px;
+}
+
 @media (max-width: 480px) {
     .cardWidth {
         width: 23rem;
+    }
+
+    .logo {
+        width: 310px;
+        height: 130px;
     }
 }
 
@@ -95,11 +105,20 @@ input[type="email"] {
    .cardWidth { 
         width: 21.5rem;
    }
+
+    .logo {
+        width: 280px;
+        height: 110px;
+    }
 }
 
 @media (max-width: 350px) {
     .cardWidth { 
          width: 20rem;
+    }
+    .logo {
+        width: 260px;
+        height: 90px;
     }
 }
 

@@ -32,7 +32,7 @@ export default function Login() {
         <Card className="cardWidth">
           <Card.Body>
             <Card.Title className="text-center mb-4">
-              <Image alt="logo" src={Assets.Logo} width={330} priority />
+              <Image className="logo" alt="logo" src={Assets.Logo} priority />
             </Card.Title>
             <Form onSubmit={handleSubmit(onSubmit)}>
               <Form.Group>
